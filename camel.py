@@ -1,5 +1,6 @@
 camelCase = str(input("camelCase: "))
 
+#converts camel case into snake case
 for letter in camelCase:
 
     if letter.isupper():
