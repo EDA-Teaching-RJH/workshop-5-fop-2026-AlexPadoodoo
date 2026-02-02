@@ -31,3 +31,12 @@ while amount_due > 0:
 change = abs(amount_due)
 print("** Transaction Complete! **")
 print(f"Your change is: {change}p")
+
+# returns the exact amount of change using largest coin denominations first example
+
+def calculate_change(change):
+    coins = [50,20,10,5]
+    
+
+
+
