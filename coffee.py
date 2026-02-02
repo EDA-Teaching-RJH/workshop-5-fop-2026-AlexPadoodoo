@@ -1,3 +1,10 @@
+# Statement of Requirements:
+# 1) Functional requirements: The code must only accept integers in the form of pence.
+#    The program will then be able to use the amount given to calculate change
+# 2) Non-Functional requirements: currently, if the user inputs a string into the program, it will break.
+#    The program should be able to accept both strings and integers or atleast warn the user to only use integers. (Reliability Requirements)
+
+
 import math
 
 #prompts user to insert coin
