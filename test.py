@@ -38,6 +38,8 @@ def select_drink():
 cost = select_drink()
 
 
+
+
 print(f"Total Cost: {cost}p")
 
 #calculates the amount due
