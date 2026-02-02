@@ -8,9 +8,10 @@
 import math
 
 #prompts user to insert coin
+print("----------------------------------")
 print("**DISCLAIMER**")
-print("**This machine only accepts 50p, 20p, 10p, 5p**")
-print("-----------------------------------")
+print("**This machine only accepts 50p, 20p, 10p, 5p coins**")
+print("----------------------------------")
 
 # Asks user what type of drink they want
 def select_drink():
