@@ -36,7 +36,16 @@ print(f"Your change is: {change}p")
 
 def calculate_change(change):
     coins = [50,20,10,5]
-    
+    change_coins = []
+    for coin in coins:
+        while change >= coin:
+            change -= coin
+            change_coins.append(coin)
+    return change_coins
+change_coins = calculate_change(change)
+print("Your change is given as: ")
+for coin in change_coins: 
+    print(f"{coin}p")
 
 
 
