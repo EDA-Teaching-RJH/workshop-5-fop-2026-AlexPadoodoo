@@ -71,7 +71,8 @@ def calculate_change(change):
             change_coins.append(coin)
     return change_coins
 change_coins = calculate_change(change)
-print("Returning: ")
+if change > 0:
+    print("Returning: ")
 for coin in change_coins: 
     print(f"{coin}p")
 
